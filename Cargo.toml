@@ -21,7 +21,7 @@ maintenance = { status = "passively-maintained" }
 
 [dependencies]
 thiserror = "1"
-rand = {version = "0.8", features = ["small_rng"]}
+rand = {version = "0.9", features = ["small_rng"]}
 tokio = {version = "1", features=["time", "net", "macros", "tracing", "rt", "sync"]}
 tracing = "0.1"
 serde = { version = "1", features = ["derive"] }
